@@ -1,0 +1,48 @@
+body {
+  background: url("./clouds.jpeg") no-repeat center center/cover;
+  height: 110vh;
+}
+@media screen and (max-width: 600px) {
+  body {
+    height: 200vh;
+  }
+}
+.App {
+  text-align: center;
+}
+
+.input-group {
+  width: 60%;
+}
+
+.card {
+  max-width: 85%;
+  padding: 2rem;
+}
+
+.card-title {
+  position: absolute;
+  padding: 1.3rem;
+}
+
+.card-date {
+  position: absolute;
+  padding-left: 1.3rem;
+  margin-top: 4rem;
+}
+
+.card-temp {
+  position: absolute;
+  padding-left: 20px;
+  margin-top: 250px;
+  font-size: 50px;
+}
+
+.card-desc {
+  position: absolute;
+  padding-left: 1rem;
+  margin-top: 19rem;
+}
+.card-text {
+  margin-bottom: 2rem;
+}
