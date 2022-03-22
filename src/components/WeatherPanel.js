@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Form from "./Form";
 import Card from "./Card";
+const API_KEY = `${process.env.REACT_APP_API_KEY}`;
 
 const WeatherPanel = () => {
-  const API_KEY = `${process.env.REACT_APP_API_KEY}`;
   let urlWeather = `https://api.openweathermap.org/data/2.5/weather?appid=${API_KEY}&lang=en`;
   let cityUrl = "&q=";
 
