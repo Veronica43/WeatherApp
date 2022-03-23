@@ -18,6 +18,11 @@ body {
 .card {
   max-width: 80%;
 }
+@media screen and (max-width: 600px) {
+  .card {
+    max-width: 100%;
+  }
+}
 
 .card-title {
   position: absolute;
