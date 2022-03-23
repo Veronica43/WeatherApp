@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import Form from "./Form";
 import Card from "./Card";
-const API_KEY = `${process.env.REACT_APP_API_KEY}`;
 
 const WeatherPanel = () => {
-  let urlWeather = `https://api.openweathermap.org/data/2.5/weather?appid=${API_KEY}&lang=en`;
+  let urlWeather =
+    "https://api.openweathermap.org/data/2.5/weather?appid=96020004af1f649029a47ae44f44094&lang=en";
   let cityUrl = "&q=";
 
-  let urlForecast = `https://api.openweathermap.org/data/2.5/forecast?appid=${API_KEY}&lang=en`;
+  let urlForecast =
+    "https://api.openweathermap.org/data/2.5/forecast?appid=96020004af1f649029a47ae44f44094&lang=en";
 
   const [weather, setWeather] = useState([]);
   const [forecast, setForecast] = useState([]);
